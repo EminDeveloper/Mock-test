@@ -1,10 +1,8 @@
 package com.greenmoder.mocktest;
 
-import com.greenmoder.mocktest.service.DataService;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;
@@ -14,8 +12,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 @SpringBootTest
 @TestPropertySource(locations = "classpath:test.properties")
 public class UsingStaticInnerTestConfiguration {
-    @Autowired
-    private DataService dataService;
 
     @Test
     void contextLoads() {
