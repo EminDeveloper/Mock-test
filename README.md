@@ -22,8 +22,8 @@ An example of this would be if we created students for a school system instead o
 
 The types of Mock Objects. There are two general types of Mock Objects: 
 <ul><li>Proxy-based mock objects.</li>
-<li>EasyMock </li>
-<li>jMock</li></ul>
+<ul><li>EasyMock </li>
+<li>jMock</li></ul></ul>
 and then we remap-based mock objects with jMockit and PowerMock. 
 A proxy is an object which is used instead of the original object, a proxy object is used to imitate the real object for testing. 
 A remap maps an object in respective of its own structure and is similar to defining a schema that can be defined and consumed. 
