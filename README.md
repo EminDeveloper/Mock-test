@@ -39,13 +39,14 @@ Client business object has a interface collaborator that attaches to the databas
 
 
 
-
-Let's talk about working with Mock Objects. Testing mock objects generally requires four steps; create, set, invoke, and verify. A domain object and its mock objects are often connected by passing a Mock Object using constructor injection, not always possible as mock may be a remote object or service, and undesirable to add code to a domain object just for testing. We can do that to a mock object. Mock Object strategies. When constructor injection is not available, four objects are required; a target object, a collaborator object, Mock Object, and a specialization object.
+## Mock Objects. 
+Testing mock objects generally requires four steps; create, set, invoke, and verify. A domain object and its mock objects are often connected by passing a Mock Object using constructor injection, not always possible as mock may be a remote object or service, and undesirable to add code to a domain object just for testing. We can do that to a mock object. Mock Object strategies. When constructor injection is not available, four objects are required; a target object, a collaborator object, Mock Object, and a specialization object.
 <img src="https://user-images.githubusercontent.com/26926048/160756386-bcc4c3dc-c6ec-4c15-aef0-860627287c2a.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 
 
 
-Here's an EasyMock overview EasyMock is an open-source project for creating Mock Objects on the fly. Uses Java reflection to create Mock Objects for an interface and proxies are used for the actual implementation. EasyMock requires minimal code to produce a mock object from an interface, and EasyMock allows interface method names or reordering parameters to be changed without breaking the test code, which is available at http://easymock.org, and the package would be org.easymock. EasyMock features and benefits. EasyMock allows domain classes to be tested in isolation, generates mock objects dynamically, supports returned values and exception verification, and supports order checking and carnality of method calls.
+## EasyMock
+Overview EasyMock is an open-source project for creating Mock Objects on the fly. Uses Java reflection to create Mock Objects for an interface and proxies are used for the actual implementation. EasyMock requires minimal code to produce a mock object from an interface, and EasyMock allows interface method names or reordering parameters to be changed without breaking the test code, which is available at http://easymock.org, and the package would be org.easymock. EasyMock features and benefits. EasyMock allows domain classes to be tested in isolation, generates mock objects dynamically, supports returned values and exception verification, and supports order checking and carnality of method calls.
 <img src="https://user-images.githubusercontent.com/26926048/160756465-6a959fc8-e215-446d-a43a-bc16581f0d5c.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 
 
@@ -56,4 +57,8 @@ An EasyMock object lifestyle would look like this. It would be imported so stati
 
 
 One, it's going to import stack utility methods for EasyMock, two, is going to create so it's then going to use EasyMock to create mock objects for the given interface or class It is then going to three, record the expected interactions with the mock. It is then four going to replay the mocks are put into replay mode or prepare the test mode. Five, they're going to execute the code under test, and then six, they're going to verify that the expected interactions took place.
+<img src="https://user-images.githubusercontent.com/26926048/160756861-7e5bf309-172c-4b90-98c6-cc2db7f5a577.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+
+<img src="https://user-images.githubusercontent.com/26926048/160756927-a4e7d3d3-b95b-41e5-a2a6-65ed4c5b7f4e.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+
 
