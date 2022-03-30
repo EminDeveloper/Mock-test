@@ -5,7 +5,7 @@ Testing with Mock Objects and EasyMocks.
 
 We have some learning objectives, so upon completion of this course, learners will be able to use Mock Objects. 
 
-Why to use Mock Objects?
+## Why to use Mock Objects?
  They're going to understand the different types of Mock Objects, understand how Mock Objects simulate collaborators behavior, create EasyMock tests to verify that collaborators with mocks did occur as expected and use EasyMock for Java testing. 
 
 ## What is mocking? 
@@ -14,16 +14,16 @@ Why to use Mock Objects?
 </ul>
  A collaborator performs some functionality on behalf of the depending class or method. Mocking replaces the collaborators with mocks that simulate the normal environment of the class method. In other words, for example, let's say we had a class that needed a subclass in order to function properly, so let's say we had an abstract class. That subclass would be considered a collaborator as it's required for some of the functionality work. Well, we can mock a subclass and then test from there. 
 
-Why use Mock Objects?
+## Why use Mock Objects?
  A Java program often needs access to a resource during execution, resources include database, external systems, and the like. 
 What if that resource is unavailable or it's inconvenient or impractical to always rely on it?
  You may simply want to write and test code without requiring a database. Instead of using the real object which represents the resource, we use a Mock Object. The Mock Object uses the same interface as the real object, clients cannot tell the difference between the Mock Object and the real object. The Mock Object uses fake data instead of real data, often just a subset of the data needed for testing. 
 An example of this would be if we created students for a school system instead of loading that information into the student object from a database, we just use mock information. 
 
 The types of Mock Objects. There are two general types of Mock Objects: 
-Proxy-based mock objects. 
-EasyMock 
-jMock
+<ul><li>Proxy-based mock objects.</li>
+<li>EasyMock </li>
+<li>jMock</li></ul>
 and then we remap-based mock objects with jMockit and PowerMock. 
 A proxy is an object which is used instead of the original object, a proxy object is used to imitate the real object for testing. 
 A remap maps an object in respective of its own structure and is similar to defining a schema that can be defined and consumed. 
