@@ -29,21 +29,29 @@ and then we remap-based mock objects with jMockit and PowerMock.
 A proxy is an object which is used instead of the original object, a proxy object is used to imitate the real object for testing. 
 A remap maps an object in respective of its own structure and is similar to defining a schema that can be defined and consumed. 
 The class loader remaps the reference to the class file it will load. An example of reference in a class holder of an account class might be remapped as MyMock.class.
+<img src="https://user-images.githubusercontent.com/26926048/160756099-2538f9f7-48cc-4593-83a0-784482f38df8.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+<img src="https://user-images.githubusercontent.com/26926048/160756196-8152d661-7d9f-47c3-ae1f-fb5820cbca73.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 
 
-Mock Objects illustrated.
+## Mock Objects illustrated.
 Client business object has a interface collaborator that attaches to the database. Well, we have a client business object that has an interface, but is connected to a Mock Objects that does not need to connect to an actual database but will pretend like it's connecting to a database. The business object sees only the interface type, the real collaborator and the Mock Object both implement it, but they implement it differently the real collaborator talks to the database the mock uses "fake" data.
+<img src="https://user-images.githubusercontent.com/26926048/160756293-011509d8-7bfd-4fae-a458-26e37b4b213f.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+
 
 
 
 Let's talk about working with Mock Objects. Testing mock objects generally requires four steps; create, set, invoke, and verify. A domain object and its mock objects are often connected by passing a Mock Object using constructor injection, not always possible as mock may be a remote object or service, and undesirable to add code to a domain object just for testing. We can do that to a mock object. Mock Object strategies. When constructor injection is not available, four objects are required; a target object, a collaborator object, Mock Object, and a specialization object.
+<img src="https://user-images.githubusercontent.com/26926048/160756386-bcc4c3dc-c6ec-4c15-aef0-860627287c2a.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+
 
 
 Here's an EasyMock overview EasyMock is an open-source project for creating Mock Objects on the fly. Uses Java reflection to create Mock Objects for an interface and proxies are used for the actual implementation. EasyMock requires minimal code to produce a mock object from an interface, and EasyMock allows interface method names or reordering parameters to be changed without breaking the test code, which is available at http://easymock.org, and the package would be org.easymock. EasyMock features and benefits. EasyMock allows domain classes to be tested in isolation, generates mock objects dynamically, supports returned values and exception verification, and supports order checking and carnality of method calls.
+<img src="https://user-images.githubusercontent.com/26926048/160756465-6a959fc8-e215-446d-a43a-bc16581f0d5c.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 
 
 
 An EasyMock object lifestyle would look like this. It would be imported so static utility method for EasyMock records the expected interactions with the mock. That's actually three, you see how this works now.
+<img src="https://user-images.githubusercontent.com/26926048/160756525-d9ae4b7c-6415-437e-9a20-fb51aed89533.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 
 
 
