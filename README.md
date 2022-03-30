@@ -13,7 +13,7 @@ We have some learning objectives, so upon completion of this course, learners wi
  <li>Mocking provides the ability to test a class or method in isolation, so a class or method may be dependent on other classes or methods, a collaborator.</li>
 </ul>
  A collaborator performs some functionality on behalf of the depending class or method. Mocking replaces the collaborators with mocks that simulate the normal environment of the class method. In other words, for example, let's say we had a class that needed a subclass in order to function properly, so let's say we had an abstract class. That subclass would be considered a collaborator as it's required for some of the functionality work. Well, we can mock a subclass and then test from there. 
-![1](https://user-images.githubusercontent.com/26926048/160755718-95693607-d2af-48b8-b51f-2cfd21118264.PNG)
+<img src="https://user-images.githubusercontent.com/26926048/160755718-95693607-d2af-48b8-b51f-2cfd21118264.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 
 ## Why use Mock Objects?
  A Java program often needs access to a resource during execution, resources include database, external systems, and the like. 
