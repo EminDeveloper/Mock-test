@@ -8,8 +8,10 @@ We have some learning objectives, so upon completion of this course, learners wi
 Why to use Mock Objects?
  They're going to understand the different types of Mock Objects, understand how Mock Objects simulate collaborators behavior, create EasyMock tests to verify that collaborators with mocks did occur as expected and use EasyMock for Java testing. 
 
- What is mocking? 
-Well, mocking provides the ability to test a class or method in isolation, so a class or method may be dependent on other classes or methods, a collaborator.
+## What is mocking? 
+<ul>
+ <li>Mocking provides the ability to test a class or method in isolation, so a class or method may be dependent on other classes or methods, a collaborator.</li>
+</ul>
  A collaborator performs some functionality on behalf of the depending class or method. Mocking replaces the collaborators with mocks that simulate the normal environment of the class method. In other words, for example, let's say we had a class that needed a subclass in order to function properly, so let's say we had an abstract class. That subclass would be considered a collaborator as it's required for some of the functionality work. Well, we can mock a subclass and then test from there. 
 
 Why use Mock Objects?
