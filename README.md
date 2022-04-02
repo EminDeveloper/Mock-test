@@ -90,3 +90,9 @@ One, it's going to import stack utility methods for EasyMock, two, is going to c
 <img src="https://user-images.githubusercontent.com/26926048/161383273-48780106-ac43-489f-b2bc-ebff6e450f0f.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 
 
+Reading Resources
+EasyMock
+https://easymock.org/user-guide.html
+
+Mockito Vs EasyMock
+https://www.javatpoint.com/mockito-vs-easymock
