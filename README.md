@@ -102,4 +102,9 @@ https://www.javatpoint.com/mockito-vs-easymock
 
 #  Mock Object Controller
 
-
+<img src="https://user-images.githubusercontent.com/26926048/161419250-3bd9c55c-2650-4ac7-b4ed-93b0a1bf9f20.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+<img src="https://user-images.githubusercontent.com/26926048/161419251-24b2adbf-cc56-4c8c-a80a-2f20f948c5d6.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+<img src="https://user-images.githubusercontent.com/26926048/161419252-4447a4a3-90cd-4b03-b21a-d3d86ade8452.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+<img src="https://user-images.githubusercontent.com/26926048/161419253-d78ecfac-3ab2-4b5d-86b4-cf3932c9dfc6.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+<img src="https://user-images.githubusercontent.com/26926048/161419254-d5c6864a-5176-42ec-9da8-fd4ca38ece1c.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+<img src="https://user-images.githubusercontent.com/26926048/161419255-8ca2378a-2efb-45f2-b699-652b06fb373b.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
