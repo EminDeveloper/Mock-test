@@ -108,3 +108,7 @@ https://www.javatpoint.com/mockito-vs-easymock
 <img src="https://user-images.githubusercontent.com/26926048/161419253-d78ecfac-3ab2-4b5d-86b4-cf3932c9dfc6.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 <img src="https://user-images.githubusercontent.com/26926048/161419254-d5c6864a-5176-42ec-9da8-fd4ca38ece1c.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 <img src="https://user-images.githubusercontent.com/26926048/161419255-8ca2378a-2efb-45f2-b699-652b06fb373b.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
+
+#### Resourse  Types of Mocks:
+
+https://www.journaldev.com/22234/easymock-nice-strict-mock#:~:text=EasyMock%20mock%20objects%20can%20have,%E2%80%93%20default%2C%20strict%20and%20nice.
