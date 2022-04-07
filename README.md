@@ -3,7 +3,7 @@ Welcome to Java testing
 
 Testing with Mock Objects and EasyMocks.
 
-We have some learning objectives, so upon completion of this course, learners will be able to use Mock Objects. 
+We have some learning objectives.
 
 ## Why to use Mock Objects?
  They're going to understand the different types of Mock Objects, understand how Mock Objects simulate collaborators behavior, create EasyMock tests to verify that collaborators with mocks did occur as expected and use EasyMock for Java testing. 
@@ -100,7 +100,7 @@ https://www.javatpoint.com/mockito-vs-easymock
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-#  Mock Object Controller
+##  Mock Object Controller
 
 <img src="https://user-images.githubusercontent.com/26926048/161419250-3bd9c55c-2650-4ac7-b4ed-93b0a1bf9f20.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 <img src="https://user-images.githubusercontent.com/26926048/161419251-24b2adbf-cc56-4c8c-a80a-2f20f948c5d6.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
