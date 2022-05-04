@@ -1,4 +1,4 @@
-## Mock-test
+## Mock-tests
 Welcome to Java testing 
 
 Testing with Mock Objects and EasyMocks.
