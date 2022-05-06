@@ -16,6 +16,7 @@ We have some learning objectives.
 <img src="https://user-images.githubusercontent.com/26926048/160755718-95693607-d2af-48b8-b51f-2cfd21118264.PNG" alt="body" style="max-width: 1920px; max-height: 1195px;">
 
 ## Why use Mock Objects?
+A Mocking
  A Java program often needs access to a resource during execution, resources include database, external systems, and the like. 
 What if that resource is unavailable or it's inconvenient or impractical to always rely on it?
  You may simply want to write and test code without requiring a database. Instead of using the real object which represents the resource, we use a Mock Object. The Mock Object uses the same interface as the real object, clients cannot tell the difference between the Mock Object and the real object. The Mock Object uses fake data instead of real data, often just a subset of the data needed for testing. 
