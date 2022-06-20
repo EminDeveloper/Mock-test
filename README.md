@@ -1,6 +1,6 @@
 ## Mock-tests
 Welcome to Java testing 
-
+This section presents you various set of Mock Tests related to Java Framework. You can download these sample mock tests at your local machine and solve offline at your convenience. Every mock test is supplied with a mock test key to let you verify the final score and grade yourself.
 Testing with Mock Objects and EasyMocks.
 
 We have some learning objectives.
